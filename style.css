@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+*{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: rgb(14, 11, 32);
+    height: 60px;
+    justify-content:flex-end;
+    align-items:center;
+    
+
+}
+nav ul{
+    display: flex;
+    color: antiquewhite;
+    justify-content:flex-end;
+    align-items:center;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    justify-content:flex-end;
+    align-items:center;
+    /* margin-right: 150px; */
+    text-decoration: none;
+    color: antiquewhite;
+}
+h2{
+    color: antiquewhite;
+    margin-left: 5px;
+    text-align:left;
+    
+}
+img{
+    align-items:flex-start;
+}
+#Home{
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 75px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+    
+
+}
+.card{
+    position: relative;
+    border-radius: 15px;
+    height: 300px;
+    width: 200px;
+    box-shadow: 3px 4px 5px rgb(152, 139, 139);
+    /* filter: grayscale(100%); */
+    
+    
+    
+    
+}
+.img-card{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card:hover{
+transform: scale(1.5);
+transition: 0.5s all ease-in-out;
+}
+.img card{
+    transform: scale(1.5);
+transition: 0.5s all ease-in-out;
+}
+body{
+    background-color: rgb(54, 52, 52);
+    position: relative;
+}
+p{
+    color: antiquewhite;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: -170px;
+    font-size:larger;
+}
+/* #About{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(10, 3, 57);
+    transition: width 5s;
+    color: antiquewhite;
+    justify-items: normal;
+    padding-left: 7%;
+}
+#About:hover{
+    width: 500px;
+} */
+#About{
+    color: antiquewhite;
+    text-align: justify;
+}
+h3:hover{
+    transform: scaleY(2.1);
+    color: rgb(167, 125, 64);
+
+
+}
+h3{
+    margin-left: 570px;
+}
+.pic img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    /* border-radius: 50%; */
+    
+    place-items: center;
+    margin-left: 500px;
+}
+.intro{
+    display: flex;
+    /* margin-left:300px; */
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+/* #bio{
+    margin: top 20px;;
+} */
+#contribution{
+    display: flex;
+    
+}
+.row{
+    display: flex;
+    justify-content: center;
+   
+}
+.Box{
+    margin: 30px;
+    border: 3px ridge rgb(204, 196, 185);
+    height: 310px;
+    width: 310px;
+    
+} 
+.Box:hover{
+    filter:brightness(50%);
+}
+.Box img{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+#Awards{
+    display:flex;
+    justify-content:space-evenly;
+}
+.row1{
+   
+display: flex;
+}
+.col1{
+    height: 70px;
+    width: 220px;
+    border: 3px ridge rgb(204, 196, 185);
+margin: 20px;
+color:rgb(6, 1, 41);;
+text-align: center;
+padding-top: 25px;
+margin-left: 15px;
+background-color:antiquewhite
+}
+/* .row2{
+    display: flex;
+}
+.col2{
+    
+    height: 70px;
+    width: 220px;
+    border: 3px ridge rgb(204, 196, 185);
+margin: 20px;
+color: antiquewhite;
+text-align: center;
+padding-top: 25px;
+margin-left: 10px;
+
+} */
+.col1:hover{
+    -webkit-text-fill-color:rgb(199, 91, 48);
+    transform: scaleX(1.2) ;
+}
+#contact{
+    background-color: rgb(14, 11, 32);
+    height: 400px;
+    width: 100%;
+}
+form{
+    width: 500px;
+    margin-left: 550px;
+}
+.input{
+    display: flex;
+    width: 100%;
+}
+button{
+    background-color: rgb(255, 255, 204);
+    align-items: center;
+    padding-left: 45%;
+    margin-bottom: 20px;
+    
+}
+button:hover{
+    background-color: rgb(155, 107, 89);
+}
+#intro{
+    text-align: justify;
+    margin-left: 100px;
+}
+h2{
+    text-align: center;
+    margin-left: 100px;
+    
+}
+@media screen and (max-width:400px)
+ {
+    nav{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    nav ul li a{
+        margin: 5px;
+    }
+    h2{
+        margin-left: 0px;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    #Home{
+        margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 170px;
+    margin-right:300px
+    display: flex;
+    justify-content: center;
+
+    
+
+    }
+    .card{
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;
+        padding: 0%;
+
+    }
+    p{
+        margin-left: 550px;
+    margin-top: -100px;
+    }
+    .img-card{
+        width: 100%;
+        height: 50px;
+        border-radius: 0px;
+        object-fit:contain;
+ }   
